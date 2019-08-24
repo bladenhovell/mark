@@ -234,7 +234,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 15em;
+  margin-bottom: 10em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -380,7 +380,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 9em;
+  padding-bottom: 4.5em;
   clear: both;
   width: 100%;
   display: block; }
@@ -394,7 +394,7 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-bottom: 4em; } }
 
 .author-img {
   background-size: cover;
@@ -1027,7 +1027,7 @@ body.offcanvas {
 #colorlib-counter {
   position: relative;
   clear: both;
-  margin-bottom: -5em; }
+  margin-bottom: 0em; }
 
 .colorlib-counters {
   padding: 3em 0;
