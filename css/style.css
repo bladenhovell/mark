@@ -234,7 +234,7 @@ figure {
   background: #fff url(../images/loader.gif) no-repeat center center;
   width: 100%;
   float: left;
-  margin-bottom: 10em;
+  margin-bottom: 12em;
   clear: both; }
   #colorlib-hero .flexslider {
     border: none;
@@ -376,11 +376,10 @@ body.offcanvas {
 .colorlib-education,
 .colorlib-blog,
 .colorlib-work,
-.colorlib-about,
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 4.5em;
+  padding-bottom: 5em;
   clear: both;
   width: 100%;
   display: block; }
@@ -390,12 +389,22 @@ body.offcanvas {
     .colorlib-education,
     .colorlib-blog,
     .colorlib-work,
-    .colorlib-about,
     .colorlib-services,
     .colorlib-contact {
-      padding-top: 5em;
+      padding-top: 4em;
       padding-bottom: 4em; } }
-
+      
+.colorlib-about {
+  padding-top: 1em;
+  padding-bottom: 0em;
+  clear: both;
+  width: 100%;
+  display: block; }
+  @media screen and (max-width: 768px) {
+    .colorlib-about {
+      padding-top: 1em;
+      padding-bottom: 0em; } }
+      
 .author-img {
   background-size: cover;
   background-position: center center;
@@ -1027,7 +1036,7 @@ body.offcanvas {
 #colorlib-counter {
   position: relative;
   clear: both;
-  margin-bottom: 0em; }
+  margin-bottom: 2em; }
 
 .colorlib-counters {
   padding: 3em 0;
