@@ -63,9 +63,10 @@
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
+					    <li><a href="#" data-nav-section="home">Home</a></li>
+					    <li><a href="#" data-nav-section="about">About</a></li>
+					    <li><a href="#" data-nav-section="skills">Skills</a></li>
+						<li class="active"><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
 					</ul>
 				</div>
@@ -91,35 +92,23 @@
 		</aside>
 
 		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   	<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc" style="transform: rotate(-90deg);position: relative;top: 40%;">
-						   					<h1></h1>
-											<p></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);transform: rotate(90deg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+		
+		<section class="colorlib-about" data-section="home">
+		
+		<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="colorlib-narrow-content">
+					<div class="row">
+			
+						<div class="col-md-3 text-center animate-box">
+							<span class="colorlib-counter js-counter" data-from="1986" data-to="2019" data-speed="10000" data-refresh-interval="60"></span>
+							
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</section>
 
 			<section class="colorlib-about" data-section="about">
 				<div class="colorlib-narrow-content">
@@ -166,24 +155,8 @@
 					</div>
 				</div>
 			</section>
-
 			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
 			
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="1970" data-to="2019" data-speed="15000" data-refresh-interval="60"></span>
-							
-						</div>
-					
-					</div>
-				</div>
-			</div>
-
 			<section class="colorlib-skills" data-section="skills">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -223,6 +196,45 @@
 					</div>
 				</div>
 			</section>
+			
+			<section id="colorlib-hero" class="js-fullheight" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Projects</span>
+							<h2 class="colorlib-heading">My designs</h2>
+						</div>
+					</div>
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   	<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner">
+					   					<div class="desc" style="transform: rotate(-90deg);position: relative;top: 40%;">
+						   					<h1></h1>
+											<p></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   	<li style="background-image: url(images/img_bg_2.jpg);transform: rotate(90deg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			  	</div>
+			</section>
+			
 
 
 			<section class="colorlib-contact" data-section="contact">
