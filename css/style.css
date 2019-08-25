@@ -261,8 +261,8 @@ body.offcanvas {
 
 .colorlib-skills,
 .colorlib-contact {
-  padding-top: 8em;
-  padding-bottom: 12em;
+  padding-top: 9em;
+  padding-bottom: 14em;
   clear: both;
   width: 100%;
   display: block; }
@@ -270,7 +270,7 @@ body.offcanvas {
     .colorlib-skills,
     .colorlib-contact {
       padding-top: 8em;
-      padding-bottom: 8em; } }
+      padding-bottom: 12em; } }
       
 .colorlib-about {
   padding-top: 1em;
