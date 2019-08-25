@@ -32,15 +32,13 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
 	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
 	<!-- Owl Carousel -->
 	<link rel="stylesheet" href="css/owl.carousel.min.css">
 	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -48,7 +46,7 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -63,7 +61,6 @@
 			<nav id="colorlib-main-menu" role="navigation" class="navbar">
 				<div id="navbar" class="collapse">
 					<ul>
-					    <li><a href="#" data-nav-section="home">Home</a></li>
 					    <li><a href="#" data-nav-section="about">About</a></li>
 					    <li><a href="#" data-nav-section="skills">Skills</a></li>
 						<li class="active"><a href="#" data-nav-section="work">Work</a></li>
@@ -93,23 +90,6 @@
 
 		<div id="colorlib-main">
 		
-		<section class="colorlib-about" data-section="home">
-		
-		<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-			
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="1986" data-to="2019" data-speed="10000" data-refresh-interval="60"></span>
-							
-						</div>
-					
-					</div>
-				</div>
-			</div>
-		</section>
-
 			<section class="colorlib-about" data-section="about">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -117,7 +97,6 @@
 							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="col-md-12">
 									<div class="about-desc">
-										<span class="heading-meta">About Me</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
 										<p><strong>Hi I'm Mark Bladen-Hovell,&nbsp;</strong>
 										I have been interested in Electronics since I was 13 years old and studied Electronics at degree level. Since then I have gained a vast, wide range of experience in Electronics hardware, embedded software and FPGAs. I have worked for small/medium sized companies in pro-audio, communications, Research and am currently working on head up displays and other projects in the automotive field. I am always eager to learn and apply new technology and I am still actively studying.
@@ -161,7 +140,6 @@
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
 							<h2 class="colorlib-heading animate-box">My Skills</h2>
 						</div>
 					</div>
@@ -197,51 +175,65 @@
 				</div>
 			</section>
 			
-			<section id="colorlib-hero" class="js-fullheight" data-section="work">
+			<section data-section="work">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Projects</span>
-							<h2 class="colorlib-heading">My designs</h2>
+							<h2 class="colorlib-heading">Examples of My Work</h2>
 						</div>
 					</div>
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   	<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc" style="transform: rotate(-90deg);position: relative;top: 40%;">
-						   					<h1></h1>
-											<p></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);transform: rotate(90deg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
+					
+					<div class="w3-content" style="max-width:800px">
+ 						<img class="mySlides" src="images/img_bg_1.jpg" style="width:60%;">
+  						<img class="mySlides" src="images/img_bg_2.jpg" style="width:60%">
+  						<img class="mySlides" src="images/img_bg_3.jpg" style="width:60%">
+					</div>
+
+					<div class="w3-center">
+  						<div class="w3-section">
+    						<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+    						<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+  						</div>
+  						<button class="w3-button demo" onclick="currentDiv(1)">1</button> 
+  						<button class="w3-button demo" onclick="currentDiv(2)">2</button> 
+  						<button class="w3-button demo" onclick="currentDiv(3)">3</button> 
+					</div>
+
+					<script>
+						var slideIndex = 1;
+						showDivs(slideIndex);
+
+						function plusDivs(n) {
+  							showDivs(slideIndex += n);
+						}
+
+						function currentDiv(n) {
+  							showDivs(slideIndex = n);
+						}
+
+						function showDivs(n) {
+ 							var i;
+  							var x = document.getElementsByClassName("mySlides");
+  							var dots = document.getElementsByClassName("demo");
+  							if (n > x.length) {slideIndex = 1}    
+  							if (n < 1) {slideIndex = x.length}
+  							for (i = 0; i < x.length; i++) {
+    							x[i].style.display = "none";  
+  							}
+  							for (i = 0; i < dots.length; i++) {
+    							dots[i].className = dots[i].className.replace(" w3-blue", "");
+  							}
+  							x[slideIndex-1].style.display = "block";  
+  							dots[slideIndex-1].className += " w3-blue";
+						}
+					</script>
 			  	</div>
 			</section>
 			
-
-
 			<section class="colorlib-contact" data-section="contact">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
 							<h2 class="colorlib-heading">Contact</h2>
 						</div>
 					</div>
@@ -249,7 +241,7 @@
 						<div class="col-md-5">
 							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
 								<div class="colorlib-icon">
-									<i class="icon-wi-fi"></i>
+									<i class="icon-mail6"></i>
 								</div>
 								<div class="colorlib-text">
 									<p><a href="mailto:web@nebald.com">web@nebald.com</a></p>
@@ -269,23 +261,6 @@
 						<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="mailto:web@nebald.com" method="post" enctype="text/plain">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
 								</div>
 								
 							</div>
@@ -319,4 +294,3 @@
 
 	</body>
 </html>
-
