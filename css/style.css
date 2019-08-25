@@ -261,16 +261,16 @@ body.offcanvas {
 
 .colorlib-skills,
 .colorlib-contact {
-  padding-top: 4em;
-  padding-bottom: 5em;
+  padding-top: 8em;
+  padding-bottom: 10em;
   clear: both;
   width: 100%;
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-skills,
     .colorlib-contact {
-      padding-top: 4em;
-      padding-bottom: 4em; } }
+      padding-top: 8em;
+      padding-bottom: 8em; } }
       
 .colorlib-about {
   padding-top: 1em;
