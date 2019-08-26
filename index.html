@@ -178,12 +178,12 @@
 							<h2 class="colorlib-heading">Examples of My Work</h2>
 						</div>
 					</div>
-					<div class="w3-content" style="max-width:800px">
- 						<img class="mySlides" src="images/img_bg_1.jpg" alt="board image 1" style="width:70%">
-  						<img class="mySlides" src="images/img_bg_2.jpg" alt="board image 2" style="width:70%">
-  						<img class="mySlides" src="images/img_bg_3.jpg" alt="board image 3" style="width:70%">
+					<div class="w3-content col-md-12 animate-box" data-animate-effect="fadeInTop"  style="max-width:800px">
+ 						<img class="mySlides" src="images/img_bg_1.jpg" alt="board image 1">
+  						<img class="mySlides" src="images/img_bg_2.jpg" alt="board image 2">
+  						<img class="mySlides" src="images/img_bg_3.jpg" alt="board image 3">
 					</div>
-					<div class="w3-center">
+					<div class="w3-center col-md-12 animate-box" data-animate-effect="fadeInTop">
   						<div class="w3-section">
     						<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
     						<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
@@ -192,34 +192,6 @@
   						<button class="w3-button demo" onclick="currentDiv(2)">2</button> 
   						<button class="w3-button demo" onclick="currentDiv(3)">3</button> 
 					</div>
-					<script>
-						var slideIndex = 1;
-						showDivs(slideIndex);
-
-						function plusDivs(n) {
-  							showDivs(slideIndex += n);
-						}
-
-						function currentDiv(n) {
-  							showDivs(slideIndex = n);
-						}
-
-						function showDivs(n) {
- 							var i;
-  							var x = document.getElementsByClassName("mySlides");
-  							var dots = document.getElementsByClassName("demo");
-  							if (n > x.length) {slideIndex = 1}    
-  							if (n < 1) {slideIndex = x.length}
-  							for (i = 0; i < x.length; i++) {
-    							x[i].style.display = "none";  
-  							}
-  							for (i = 0; i < dots.length; i++) {
-    							dots[i].className = dots[i].className.replace(" w3-blue", "");
-  							}
-  							x[slideIndex-1].style.display = "block";  
-  							dots[slideIndex-1].className += " w3-blue";
-						}
-					</script>
 			  	</div>
 			</section>
 			
@@ -232,7 +204,7 @@
 					</div>
 					<div class="row">
 						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInTop">
 								<div class="colorlib-icon">
 									<i class="icon-mail6"></i>
 								</div>
@@ -240,7 +212,7 @@
 									<p><a href="mailto:web@nebald.com">web@nebald.com</a></p>
 								</div>
 							</div>
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInTop">
 								<div class="colorlib-icon">
 									<i class="icon-map3"></i>
 								</div>
@@ -281,6 +253,7 @@
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<script src="js/slides.js"></script>
 
 	</body>
 </html>
